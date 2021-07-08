@@ -36,22 +36,17 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 * Run the following commands in the terminal
  ```shell
-git init
+heroku login
+heroku git:clone -a appname
+
 git add .
 git commit -am "first commit"
-
-heroku login
-heroku create app_name
 git push heroku master
 heroku open
 
 heroku run python manage.py migrate
 ```
 
-If you are cloning a old project, add this before pushing
-```shell
-heroku git:clone -a appname
-```
 * Modify the following in ```settings.py```
 ```python
 DEBUG = False
