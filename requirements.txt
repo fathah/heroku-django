@@ -1,0 +1,6 @@
+Django
+gunicorn
+django-heroku
+django-environ
+passlib
+requests
