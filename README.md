@@ -6,7 +6,7 @@
 * Make a copy of your project or use a seperate git branch.
 * Make sure your virtual environment is activated.
 * Add your dependencies to requirements.txt by typing in the terminal,
-* Check ```requirements.txt``` in this repo for required dependencies.
+* Check [```requirements.txt```](/fathah/heroku-django/blob/main/requirements.txt) in this repo for required dependencies.
 ```shell
 pip freeze > requirements.txt
 ```
